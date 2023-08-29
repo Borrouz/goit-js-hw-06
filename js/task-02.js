@@ -15,7 +15,7 @@ const result = [...ingredients].map((e) => {
   return li
 })
 console.log(result);
-const listEnd = [...result]
+
 
 container.append(...result)
 
