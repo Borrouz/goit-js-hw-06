@@ -3,8 +3,6 @@
 const input = document.getElementById('validation-input');
 
 const handler = (e) => {
-   console.log(e.currentTarget.value.length); 
-   console.log(e.currentTarget.dataset.length);
     if (Number(e.currentTarget.value.length) === Number(e.currentTarget.dataset.length)){
         input.classList.remove('invalid')
         input.classList.add('valid');
